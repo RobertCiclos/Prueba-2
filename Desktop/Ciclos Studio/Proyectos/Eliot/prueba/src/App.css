@@ -1,0 +1,13 @@
+
+@keyframes shadow-blink {
+  0% {
+    filter: url(#shadow);
+  }
+  50% {
+    filter: none;
+    /* or add a small offset to the shadow here if desired */
+  }
+  100% {
+    filter: url(#shadow);
+  }
+}
